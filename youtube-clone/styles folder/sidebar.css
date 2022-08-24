@@ -5,4 +5,15 @@
   top: 55px;
   background-color: white;
   width: 72px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.sidebar-icons {
+
+  height: 10px;
+  
 }
