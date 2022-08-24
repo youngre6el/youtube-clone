@@ -1,0 +1,59 @@
+<!--TAKEAWAYS
+  positon: fixed
+  bottom: 0 means you want it to stick to the bottom
+  top: means you want it to streatch to the top
+
+  add padding to body so it wont cover content.
+
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position Practice</title>
+  </head>
+  <body style="height: 3000px; padding: 60px; padding-left: 80px;">
+    <div
+      style="
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 50px;
+      "
+    >
+      Header
+    </div>
+
+    <div
+      style="
+        background-color: green;
+        position: fixed;
+        color: white;
+        bottom: 0;
+        left: 0;
+        top: 50px;
+        width:72px;
+      "
+    >
+      sidebar
+    </div>
+
+    <div
+      style="
+        background-color: lightblue;
+        height: 200px;
+        width: 200px;
+        position: static;
+      "
+    >
+      div 1
+    </div>
+
+    <div style="background-color: lightpink; height: 200px; width: 200px">
+      div 2
+    </div>
+  </body>
+</html>
